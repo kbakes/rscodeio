@@ -1,3 +1,9 @@
+<br>
+
+**This is a fork of the excellent [rscodeio](https://github.com/anthonynorth/rscodeio) RStudio theme. I've made the menu bar and drop-down menus smaller, and changed the code comment colour to grey. README text and most other content by [Anthony North](https://github.com/anthonynorth).**
+
+<br>
+
 <p align=center>
   <img src="./inst/media/rscodeio.png" width="480" height="270">
 </p>
@@ -26,22 +32,23 @@ RStudio 1.2.x or higher.
 
 Get the package:
 
-```r
-remotes::install_github("anthonynorth/rscodeio")
+``` r
+remotes::install_github("murphymv/rscodeio")
 ```
 
 `rscodeio` modifies the theme of RStudio menus. These are not exposed by the current theming API and so this is achieved by modifying style sheets in the RStudio installation. To modify files in this area will likely require the installation to be run with administrator privileges. To do this:
 
-- On Windows start RStudio by right clicking on a shortcut or menu icon and selecting 'Run as Administrator'
-- On Linux start RStudio in a terminal using `sudo rstudio --no-sandbox`
-- On Mac this is not required. Theming the menus is not supported.
-  - They're inherited from OS so might want to use your dark OS theme.
+-   On Windows start RStudio by right clicking on a shortcut or menu icon and selecting 'Run as Administrator'
+
+-   On Linux start RStudio in a terminal using `sudo rstudio --no-sandbox`
+
+-   On Mac this is not required. Theming the menus is not supported.
+
+    -   They're inherited from OS so might want to use your dark OS theme.
 
 From within RStudio running as administrator, run this command to install and apply the theme:
 
-```
-rscodeio::install_theme()
-```
+    rscodeio::install_theme()
 
 And close RStudio. Reopen it in the normal way and the theme should be fully applied.
 
@@ -51,10 +58,10 @@ Once installed it can also be selected using the RStudio theme picker in the usu
 
 For best results, make sure the following settings are enabled:
 
-- <kbd>Tools</kbd> → <kbd>Global Options…</kbd> → <kbd>Code</kbd> → <kbd>Display</kbd> → **☑ Highlight selected line**
-- <kbd>Tools</kbd> → <kbd>Global Options…</kbd> → <kbd>Code</kbd> → <kbd>Display</kbd> → **☑ Show indent guides**
-- <kbd>Tools</kbd> → <kbd>Global Options…</kbd> → <kbd>Code</kbd> → <kbd>Display</kbd> → **☑ Show syntax highlighting in console input**
-- <kbd>Tools</kbd> → <kbd>Global Options…</kbd> → <kbd>Code</kbd> → <kbd>Display</kbd> → **☑ Highlight R function calls**
+-   <kbd>Tools</kbd> → <kbd>Global Options…</kbd> → <kbd>Code</kbd> → <kbd>Display</kbd> → **☑ Highlight selected line**
+-   <kbd>Tools</kbd> → <kbd>Global Options…</kbd> → <kbd>Code</kbd> → <kbd>Display</kbd> → **☑ Show indent guides**
+-   <kbd>Tools</kbd> → <kbd>Global Options…</kbd> → <kbd>Code</kbd> → <kbd>Display</kbd> → **☑ Show syntax highlighting in console input**
+-   <kbd>Tools</kbd> → <kbd>Global Options…</kbd> → <kbd>Code</kbd> → <kbd>Display</kbd> → **☑ Highlight R function calls**
 
 # Switching to another theme
 

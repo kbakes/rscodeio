@@ -13,21 +13,21 @@
 install_theme <- function(menus = TRUE) {
 
   ## check RStudio API available
-  if(!rstudioapi::isAvailable()) stop("RSCodeio must be installed from within RStudio.")
+  if (!rstudioapi::isAvailable()) stop("RSCodeio must be installed from within RStudio.")
 
   ## check RStudio supports themes
-  if(utils::compareVersion(as.character(rstudioapi::versionInfo()$version), "1.2.0") < 0)
+  if (utils::compareVersion(as.character(rstudioapi::versionInfo()$version), "1.2.0") < 0)
     stop("You need RStudio 1.2 or greater to get theme support")
 
   ## check if menu theme already installed and uninstall
-  if(rscodeio_installed()){
+  if (rscodeio_installed()) {
     uninstall_theme()
   }
 
   ## add the themes
   rscodeio_default_theme <- rstudioapi::addTheme(fs::path_package(package = "rscodeio",
                                                                   "resources","rscodeio.rstheme"))
-                                                                  
+
   rstudioapi::addTheme(fs::path_package(package = "rscodeio",
                                         "resources","rscodeio_tomorrow_night_bright.rstheme"))
 
@@ -45,13 +45,13 @@ install_theme <- function(menus = TRUE) {
 uninstall_theme <- function(){
 
   deactivate_menu_theme()
-  
+
   installed_rscodeio_themes <- grep(x = purrr::map_depth(.x = rstudioapi::getThemes(),
                                                          .depth = 1L,
                                                          .f = purrr::pluck("name")),
                                     pattern = "rscodeio",
                                     value = TRUE)
-  
+
   for (theme in installed_rscodeio_themes) {
     rstudioapi::removeTheme(theme)
   }
@@ -65,9 +65,9 @@ uninstall_theme <- function(){
 activate_menu_theme <- function() {
 
   ## Styling menus not supported on Mac or RStudio Server.
-  if(host_os_is_mac() | is_rstudio_server()) return(NULL)
+  if (host_os_is_mac() | is_rstudio_server()) return(NULL)
 
-  if(file.exists(gnome_theme_dark_backup()) |
+  if (file.exists(gnome_theme_dark_backup()) |
      file.exists(windows_theme_dark_backup())) {
       message("RSCodeio menu theme already activated. Deactivate first.")
       return(FALSE)
@@ -97,9 +97,9 @@ activate_menu_theme <- function() {
 deactivate_menu_theme <- function(){
 
   ## Styling menus not supported on Mac.
-  if(host_os_is_mac()) return(NULL)
+  if (host_os_is_mac()) return(NULL)
 
-  if(!file.exists(gnome_theme_dark_backup()) |
+  if (!file.exists(gnome_theme_dark_backup()) |
      !file.exists(windows_theme_dark_backup())) {
     message("RStudio theme backups not found. rscodeio already deactivated?")
     return(FALSE)

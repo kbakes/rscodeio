@@ -1,7 +1,7 @@
 get_stylesheets_location <- function(){
 
   ## We shouldn't get here on mac
-  if(host_os_is_mac()) stop("Qss Stylesheets are not used on Mac")
+  if (host_os_is_mac()) stop("Qss Stylesheets are not used on Mac")
 
   rstudio_dirs <- list(
     pandoc_dir = Sys.getenv("RSTUDIO_PANDOC"),
@@ -14,7 +14,7 @@ get_stylesheets_location <- function(){
   extract_rstudio_path_parts <- function(path){
     dir_parts <- fs::path_split(path)[[1]]
     rstudio_ind <- which(dir_parts %in% c("RStudio","rstudio"))
-    if(length(rstudio_ind) != 1) return(NULL)
+    if (length(rstudio_ind) != 1) return(NULL)
 
     dir_parts[seq(rstudio_ind)]
   }
@@ -28,7 +28,7 @@ get_stylesheets_location <- function(){
           lapply(rstudio_dirs, extract_rstudio_path_parts)
     )
 
-  if(length(potential_paths) == 0) stop("Could not find location of your RStudio installation.")
+  if (length(potential_paths) == 0) stop("Could not find location of your RStudio installation.")
 
   ## return first path that existed
   fs::path_join(c(potential_paths[[1]], "resources", "stylesheets"))
