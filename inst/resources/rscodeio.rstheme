@@ -20,12 +20,148 @@
   --keyword: rgb(197, 134, 192);
   --function-declaration: rgb(220, 220, 170);
   --variable: rgb(156, 220, 254);
-  --comment: rgb(150, 150, 150);
+  --comment: rgb(106, 153, 85);
 
   /* markdown */
   --heading: var(--language-constant);
   --inline-code: var(--string);
 }
+
+
+/* MY EDITS */
+
+button,
+input,
+select,
+textarea,
+.dataGridHeader,
+.GCHYANPCA1C .gwt-SplitLayoutPanel-HDragger,
+.GCHYANPCD0C .gwt-SplitLayoutPanel-VDragger,
+.GCHYANPCF3,
+.GCHYANPCF3:focus,
+.GCHYANPCIWC,
+.GCHYANPCLJ,
+.GCHYANPCM1,
+.GCHYANPCNAD,
+.GCHYANPCO1,
+.GCHYANPCP1,
+.GCHYANPCP2,
+.gwt-TextBox-readonly,
+.rstudio-themes-flat .rstudio-themes-dark .dataGridHeader,
+.rstudio-themes-flat .search,
+.search .rstheme_center,
+.search .GCHYANPCDR,
+.search .GCHYANPCPS {
+  background-color: rgb(60, 60, 60);
+  color: var(--editor-foreground);
+}
+
+.GCHYANPCOU,
+.GCHYANPCA1C,
+.GCHYANPCDWC,
+.GCHYANPCGE,
+.GCHYANPCG0C,
+.GCHYANPCH0C,
+.GCHYANPCH3,
+.GCHYANPCHBD,
+.GCHYANPCHW,
+.GCHYANPCI1,
+.GCHYANPCJ3,
+.GCHYANPCKRB td.GCHYANPCKRB,
+.GCHYANPCO2,
+.rstudio-HyperlinkLabel,
+.rstudio-themes-flat .GCHYANPCG-,
+.rstudio-themes-flat.editor_dark h1,
+.rstudio-themes-flat.editor_dark h2,
+.rstudio-themes-flat.editor_dark h3,
+.rstudio-themes-flat.editor_dark h4,
+.rstudio-themes-flat.editor_dark h5,
+.rstudio-themes-flat.editor_dark h6,
+.rstudio-themes-flat.editor_dark table,
+.rstudio-themes-flat.editor_dark.ace_editor_theme a,
+.rstudio-themes-dark.editor_dark.ace_editor_theme div,
+.rstudio-themes-flat.editor_dark.ace_editor_theme p {
+  background-color: var(--editor-background) !important;
+  color: var(--editor-foreground) !important;
+}
+
+.GCHYANPCHK,
+.GCHYANPCIP .gwt-TabLayoutPanelContentContainer {
+  background-color: var(--editor-background);
+  border-color: rgb(60, 60, 60);
+}
+
+/* Keep this separate for white highlighted text on selected tab buttons in global options menu... also use 'background' not 'background-color' for some reason... */
+.GCHYANPCIP .gwt-TabLayoutPanelTab {
+  background: rgb(60, 60, 60);
+}
+
+.GCHYANPCGWC {
+  background-color: rgb(99, 42, 38);
+  color: var(--editor-foreground);
+}
+
+.GCHYANPCJ- td {
+  background-color: rgb(67, 96, 57) !important;
+  border-color: rgb(60, 60, 60) !important;
+}
+
+.GCHYANPCKWC {
+  background-color: rgb(88, 130, 68);
+  color: var(--editor-foreground);
+}
+
+.GCHYANPCNH {
+  background-color: transparent;
+}
+
+.GCHYANPCOX td {
+  background-color: rgb(38, 89, 89) !important;
+  border-color: rgb(60, 60, 60) !important;
+}
+
+.GCHYANPCPX {
+  border-bottom-color: rgb(60, 60, 60) !important;
+}
+
+.rstudio-themes-flat input[type="checkbox"] {
+  background-color: rgb(176, 176, 176);
+}
+
+.rstudio-themes-flat .GCHYANPCPX:first-child {
+  border-left-color: rgb(60, 60, 60)
+}
+
+.rstudio-themes-flat .gwt-DialogBox,
+.rstudio-themes-flat .gwt-DialogBox .dialogTopCenter {
+  background-color: rgb(60, 60, 60);
+  border-color: rgb(60, 60, 60);
+}
+
+
+/* 'New Project' menus etc..... under construction.....
+
+.GCHYANPCJ3:focus {
+  background-color: rgb(60, 60, 60);
+}
+
+.GCHYANPCM3 {
+  background-color: rgb(60, 60, 60);
+}
+
+.GCHYANPCM3:focus {
+  background-color: rgb(60, 60, 60);
+}
+
+.rstudio-themes-flat .GCHYANPCK3 {
+  background-color: var(--editor-background);
+}
+
+*/
+
+
+/* END MY EDITS */
+
 
 .ace_gutter {
   color: rgb(133, 133, 133);
@@ -255,10 +391,6 @@
 
 #rstudio_console_output .ace_constant.ace_language {
   color: #f48771;
-}
-
-.rstudio-themes-flat.editor_dark.ace_editor_theme a {
-  color: #fff !important;
 }
 
 .ace_layer {
