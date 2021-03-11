@@ -37,26 +37,30 @@ textarea,
 .dataGridHeader,
 .GCHYANPCA1C .gwt-SplitLayoutPanel-HDragger,
 .GCHYANPCD0C .gwt-SplitLayoutPanel-VDragger,
+.GCHYANPCEJD,
 .GCHYANPCF3,
 .GCHYANPCF3:focus,
 .GCHYANPCIWC,
 .GCHYANPCLJ,
 .GCHYANPCM1,
 .GCHYANPCNAD,
+.GCHYANPCNYC,
 .GCHYANPCO1,
 .GCHYANPCP1,
 .GCHYANPCP2,
+.gwt-MenuItem-selected,
+.gwt-SuggestBoxPopup .item-selected,
 .gwt-TextBox-readonly,
 .rstudio-themes-flat .rstudio-themes-dark .dataGridHeader,
 .rstudio-themes-flat .search,
 .search .rstheme_center,
 .search .GCHYANPCDR,
-.search .GCHYANPCPS {
-  background-color: rgb(60, 60, 60);
+.search .GCHYANPCPS,
+.subMenuIcon-selected {
+  background: rgb(60, 60, 60);
   color: var(--editor-foreground);
 }
 
-.GCHYANPCOU,
 .GCHYANPCA1C,
 .GCHYANPCDWC,
 .GCHYANPCGE,
@@ -66,9 +70,11 @@ textarea,
 .GCHYANPCHBD,
 .GCHYANPCHW,
 .GCHYANPCI1,
-.GCHYANPCJ3,
 .GCHYANPCKRB td.GCHYANPCKRB,
 .GCHYANPCO2,
+.GCHYANPCOU,
+.GCHYANPCOU td,
+.gwt-MenuBar>table,
 .rstudio-HyperlinkLabel,
 .rstudio-themes-flat .GCHYANPCG-,
 .rstudio-themes-flat.editor_dark h1,
@@ -80,85 +86,94 @@ textarea,
 .rstudio-themes-flat.editor_dark table,
 .rstudio-themes-flat.editor_dark.ace_editor_theme a,
 .rstudio-themes-dark.editor_dark.ace_editor_theme div,
-.rstudio-themes-flat.editor_dark.ace_editor_theme p {
-  background-color: var(--editor-background) !important;
+.rstudio-themes-flat.editor_dark.ace_editor_theme p,
+.themedPopupPanel .popupTopCenter,
+.themedPopupPanel .popupTopLeft,
+.themedPopupPanel .popupTopRight,
+.themedPopupPanel .popupMiddleLeft,
+.themedPopupPanel .popupMiddleRight,
+.themedPopupPanel .popupBottomCenter,
+.themedPopupPanel .popupBottomLeft,
+.themedPopupPanel .popupBottomRight {
+  background: var(--editor-background) !important;
   color: var(--editor-foreground) !important;
+}
+
+.GCHYANPCCFC {
+  background: var(--editor-background);
+  border-color: var(--editor-background);
+}
+
+.GCHYANPCCGC {
+  background: rgb(60, 60, 60);
+  border-color: rgb(60, 60, 60);
+}
+
+.GCHYANPCFD, .GCHYANPCHFC {
+  background: rgb(60, 60, 60);
+  border-color: var(--editor-background);
+  color: var(--editor-foreground);
+}
+
+.GCHYANPCGWC {
+  background: rgb(99, 42, 38);
+  color: var(--editor-foreground);
 }
 
 .GCHYANPCHK,
 .GCHYANPCIP .gwt-TabLayoutPanelContentContainer {
-  background-color: var(--editor-background);
+  background: var(--editor-background);
   border-color: rgb(60, 60, 60);
 }
 
-/* Keep this separate for white highlighted text on selected tab buttons in global options menu... also use 'background' not 'background-color' for some reason... */
+/* Keep this separate for white highlighted text on selected tab buttons in global options menu */
 .GCHYANPCIP .gwt-TabLayoutPanelTab {
   background: rgb(60, 60, 60);
 }
 
-.GCHYANPCGWC {
-  background-color: rgb(99, 42, 38);
-  color: var(--editor-foreground);
+/* 'New Project' menus (can't figure out highlighting... ::selection??) */
+.GCHYANPCJ3 {
+  background: rgb(60, 60, 60) !important;
 }
 
 .GCHYANPCJ- td {
-  background-color: rgb(67, 96, 57) !important;
-  border-color: rgb(60, 60, 60) !important;
+  background: rgb(67, 96, 57);
+  border-color: rgb(60, 60, 60);
 }
 
 .GCHYANPCKWC {
-  background-color: rgb(88, 130, 68);
+  background: rgb(88, 130, 68);
   color: var(--editor-foreground);
 }
 
 .GCHYANPCNH {
-  background-color: transparent;
+  background: transparent;
 }
 
 .GCHYANPCOX td {
-  background-color: rgb(38, 89, 89) !important;
-  border-color: rgb(60, 60, 60) !important;
+  background: rgb(38, 89, 89);
+  border-color: rgb(60, 60, 60);
 }
 
 .GCHYANPCPX {
-  border-bottom-color: rgb(60, 60, 60) !important;
+  border-bottom-color: rgb(60, 60, 60);
 }
 
-.rstudio-themes-flat input[type="checkbox"] {
-  background-color: rgb(176, 176, 176);
+.rstudio-themes-flat input[type="checkbox"],
+.rstudio-themes-flat .rstudio-themes-dark input[type="checkbox"] {
+  background: rgb(176, 176, 176);
+  border-color: transparent;
 }
 
 .rstudio-themes-flat .GCHYANPCPX:first-child {
-  border-left-color: rgb(60, 60, 60)
+  border-left-color: rgb(60, 60, 60);
 }
 
 .rstudio-themes-flat .gwt-DialogBox,
 .rstudio-themes-flat .gwt-DialogBox .dialogTopCenter {
-  background-color: rgb(60, 60, 60);
+  background: rgb(60, 60, 60);
   border-color: rgb(60, 60, 60);
 }
-
-
-/* 'New Project' menus etc..... under construction.....
-
-.GCHYANPCJ3:focus {
-  background-color: rgb(60, 60, 60);
-}
-
-.GCHYANPCM3 {
-  background-color: rgb(60, 60, 60);
-}
-
-.GCHYANPCM3:focus {
-  background-color: rgb(60, 60, 60);
-}
-
-.rstudio-themes-flat .GCHYANPCK3 {
-  background-color: var(--editor-background);
-}
-
-*/
-
 
 /* END MY EDITS */
 

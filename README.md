@@ -1,6 +1,12 @@
-<br>
+# rscodeio fork
 
-**This is a fork of the excellent [rscodeio](https://github.com/anthonynorth/rscodeio) RStudio theme. I've made the menu bar and drop-down menus smaller, and changed the code comment colour to grey. README text and most other content by [Anthony North](https://github.com/anthonynorth).**
+Fork of the excellent [rscodeio](https://github.com/anthonynorth/rscodeio) RStudio theme. Most content by [Anthony North](https://github.com/anthonynorth). Changes:
+
+-   Smaller/tighter menu bar and drop-down menus
+
+-   Extended theming to Global Options menu and other IDE elements (experimental/incomplete)
+
+-   Extended theming to Rmarkdown documents (experimental; css: `system.file("resources/rscodeio-Rmd.css", package = "rscodeio")`)
 
 <br>
 

@@ -1,4 +1,6 @@
-/* vscodeio theme formatting for Rmarkdown - use on top of zenburn syntax highlighting theme and (optionally) darkly bootstrap theme */
+/* vscodeio Theme for Rmarkdown */
+
+/* Main Body, Headings, Code Chunks */
 
 body,
 pre:not([class]),
@@ -34,56 +36,8 @@ pre.sourceCode {
 }
 
 
-/* syntax highlighting */
-/* build on zenburn css: https://github.com/tajmone/pandoc-goodies/blob/master/skylighting/css/built-in-styles/zenburn.css */
-
-/*  ==============================================================================
-                           Zenburn (pandoc built-in style)
-    ==============================================================================
-    Style based on the popular "Zenburn" Vim color scheme:
-
-        http://kippura.org/zenburnpage/
-
-    This stylesheet was produced using Pandoc v2.7.2.
-
-    Pandoc is (c) 2006-2017 John MacFarlane (jgm@berkeley.edu).
-    Released under the GPL, version 2 or greater.
-    ------------------------------------------------------------------------------
-*/
-
-/*
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
-}
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  { color: #cccccc; background-color: #303030; }
-@media screen {
-a.sourceLine::before { text-decoration: underline; }
-}
-*/
+/* Syntax Highlighting */
+/* (build on zenburn css: https://github.com/tajmone/pandoc-goodies/blob/master/skylighting/css/built-in-styles/zenburn.css) */
 
 /* rscodeio highlighting (can't map yet: type-declaration, regex)
 :root {
@@ -98,8 +52,7 @@ a.sourceLine::before { text-decoration: underline; }
     --comment: rgb(106, 153, 85);
     --heading: var(--language-constant);
     --inline-code: var(--string);
-}
-*/
+} */
 code span.bu { color: rgb(220, 220, 170); } /* BuiltIn */
 code span.cf { color: rgb(197, 134, 192); } /* ControlFlow */
 code span.cn { color: rgb(86, 156, 214); font-weight: normal; } /* Constant */
@@ -114,7 +67,7 @@ code span.ot { color: rgb(204, 204, 204); } /* Other */
 code span.sc { color: rgb(204, 204, 204); } /* SpecialChar */
 code span.st { color: rgb(206, 145, 120); } /* String */
 
-/* zenburn highlighting */
+/* default highlighting */
 code span.al { color: #ffcfaf; } /* Alert */
 code span.an { color: #7f9f7f; font-weight: bold; } /* Annotation */
 code span.at { } /* Attribute */
@@ -133,7 +86,7 @@ code span.vs { color: #cc9393; } /* VerbatimString */
 code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
 
 
-/* Alternative: using highlight.js (incomplete) */
+/* Alternative Syntax Highlighting: highlight.js (incomplete) */
 
 /* these work */
 /* .hljs-literal { color: rgb(86, 156, 214); } /* --language-constant */
