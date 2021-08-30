@@ -6,7 +6,26 @@ Fork of the excellent [rscodeio](https://github.com/anthonynorth/rscodeio) RStud
 
 -   Extended theming to Global Options menu and other IDE elements (experimental/incomplete)
 
--   Extended theming to Rmarkdown documents (experimental; css: `system.file("resources/rscodeio-Rmd.css", package = "rscodeio")`)
+-   Extended theming to Rmarkdown documents (experimental). Works on top of a custom syntax highlighting theme, e.g.:
+
+    ``` yaml
+    output:
+      html_document:
+        highlight: zenburn
+        css: !expr system.file("resources/rscodeio_Rmd.css", package = "rscodeio")
+    ```
+
+-   Extended theming to `pkgdown` websites for `R` packages (experimental). Copy contents of `resources/rscodeio_pkgdown.css` to `pkgdown/extra.css`.
+
+Samples:
+
+<p align=center>
+  <img src="./inst/media/rscodeio-2.png" width="480" height="270">
+  <img src="./inst/media/rscodeio-3.png" width="480" height="270">
+  <img src="./inst/media/rscodeio-4.png" width="480" height="270">
+</p>
+
+------------------------------------------------------------------------
 
 <br>
 

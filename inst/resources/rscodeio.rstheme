@@ -2124,11 +2124,26 @@
   background-color: #eeeeee;
 }
 
+
 /* MY EDITS */
 
 a:-webkit-any-link,
+table,
+.GAQXDSOBA2C,
+.GAQXDSOBE3B,
+.GAQXDSOBH1C,
+.GAQXDSOBHK,
+.GAQXDSOBICD,
+.GAQXDSOBIW,
+.GAQXDSOBJ1,
+.GAQXDSOBLRC td,
+.GAQXDSOBMRB td.GAQXDSOBMRB,
+.GAQXDSOBP2,
+.GAQXDSOBP2B,
+.GAQXDSOBPFC,
 .GCHYANPCA1C,
 .GCHYANPCDWC,
+.GCHYANPCE2B,
 .GCHYANPCGE,
 .GCHYANPCG0C,
 .GCHYANPCH0C,
@@ -2136,14 +2151,21 @@ a:-webkit-any-link,
 .GCHYANPCHBD,
 .GCHYANPCHW,
 .GCHYANPCI1,
+.GCHYANPCJ2B,
 .GCHYANPCKRB td.GCHYANPCKRB,
 .GCHYANPCO2,
 .GCHYANPCOU,
 .GCHYANPCOU td,
-.gwt-MenuBar>table,
+/* .gwt-MenuBar>table, */
 .rstudio-HyperlinkLabel,
+.rstudio-themes-dark .gwt-TabLayoutPanelContent > div:nth-last-child(2):nth-child(4) .rstudio-themes-background,
 .rstudio-themes-dark.editor_dark.ace_editor_theme div,
 .rstudio-themes-flat .GCHYANPCG-,
+.rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBEU,
+.rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBI1,
+.rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBIRC,
+.rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBJ1,
+.rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBNU,
 .rstudio-themes-flat .rstudio-themes-dark .GCHYANPCIQC,
 .rstudio-themes-flat.editor_dark h1,
 .rstudio-themes-flat.editor_dark h2,
@@ -2167,11 +2189,13 @@ a:-webkit-any-link,
   color: var(--editor-foreground) !important;
 }
 
-button,
+/* button, */
 input,
 select,
 textarea,
 .dataGridHeader,
+.GAQXDSOBA3,
+.GAQXDSOBIXC,
 .GCHYANPCA1C .gwt-SplitLayoutPanel-HDragger,
 .GCHYANPCD0C .gwt-SplitLayoutPanel-VDragger,
 .GCHYANPCEJD,
@@ -2200,6 +2224,26 @@ textarea,
   color: var(--editor-foreground);
 }
 
+.GAQXDSOBAGC {
+  background: rgb(60, 60, 60);
+  border-color: var(--editor-background);
+}
+
+.GAQXDSOBIP .gwt-TabLayoutPanelTab {
+  background: var(--editor-background);
+  color: var(--editor-foreground);
+}
+
+.GAQXDSOBIP .gwt-TabLayoutPanelTab-selected {
+  background: rgb(60, 60, 60);
+}
+
+.GAQXDSOBHGC {
+  background: rgb(60, 60, 60);
+  border-color: var(--editor-background);
+  color: var(--editor-foreground);
+}
+
 .GCHYANPCCFC {
   background: var(--editor-background);
   border-color: var(--editor-background);
@@ -2216,7 +2260,8 @@ textarea,
   color: var(--editor-foreground);
 }
 
-.GCHYANPCGWC {
+.GCHYANPCGWC,
+.GAQXDSOBGXC {
   background: rgb(99, 42, 38);
   color: var(--editor-foreground);
 }
@@ -2225,11 +2270,6 @@ textarea,
 .GCHYANPCIP .gwt-TabLayoutPanelContentContainer {
   background: var(--editor-background);
   border-color: rgb(60, 60, 60);
-}
-
-/* Keep this separate for white highlighted text on selected tab buttons in global options menu */
-.GCHYANPCIP .gwt-TabLayoutPanelTab {
-  background: rgb(60, 60, 60);
 }
 
 /* 'New Project' menus (can't figure out highlighting... ::selection??) */
@@ -2242,6 +2282,7 @@ textarea,
   border-color: rgb(60, 60, 60);
 }
 
+.GAQXDSOBKXC,
 .GCHYANPCKWC {
   background: rgb(88, 130, 68);
   color: var(--editor-foreground);
@@ -2252,6 +2293,7 @@ textarea,
   background: var(--toolbar);
 }
 
+.GAQXDSOBNH,
 .GCHYANPCNH {
   background: transparent;
 }
@@ -2279,4 +2321,23 @@ textarea,
 .rstudio-themes-flat .gwt-DialogBox .dialogTopCenter {
   background: rgb(60, 60, 60);
   border-color: rgb(60, 60, 60);
+}
+
+/* Fonts */
+
+/* Fira Code stylistic sets */
+.ace_editor,
+.GAQXDSOBJ1C,
+.rstudio-fixed-width-font {
+  font-feature-settings: "ss01", "ss02", "ss03", "ss05", "ss06", "ss07";
+}
+
+/* Fix font issue for Command Pallette/Error Traceback, caused by above */
+div.GAQXDSOBOGD,
+select.gwt-ListBox,
+.editor_dark .GAQXDSOBG5C,
+.GAQXDSOBGFD {
+  /* font-family: sans-serif, serif !important; */
+  /* font-family: "Arial", monospace; */
+  font-family: "Liberation Sans", monospace;
 }
