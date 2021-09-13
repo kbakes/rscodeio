@@ -1,6 +1,6 @@
 # rscodeio fork
 
-Fork of the excellent [rscodeio](https://github.com/anthonynorth/rscodeio) RStudio theme. Most content by [Anthony North](https://github.com/anthonynorth). Changes:
+Fork of the excellent [rscodeio](https://github.com/anthonynorth/rscodeio) RStudio theme by [Anthony North](https://github.com/anthonynorth). Changes:
 
 -   Smaller/tighter menu bar and drop-down menus
 
