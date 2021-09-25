@@ -2128,6 +2128,7 @@
 /* MY EDITS */
 
 a:-webkit-any-link,
+div.GONVA-ECL2C,
 table,
 .GAQXDSOBA2C,
 .GAQXDSOBE3B,
@@ -2157,6 +2158,13 @@ table,
 .GCHYANPCO2,
 .GCHYANPCOU,
 .GCHYANPCOU td,
+.GONVA-ECH-,
+.GONVA-ECHK,
+.GONVA-ECHSB td.GONVA-ECHSB,
+.GONVA-ECIW,
+.GONVA-ECJ1,
+.GONVA-ECL2C,
+.GONVA-ECP2,
 /* .gwt-MenuBar>table, */
 .rstudio-HyperlinkLabel,
 .rstudio-themes-dark .gwt-TabLayoutPanelContent > div:nth-last-child(2):nth-child(4) .rstudio-themes-background,
@@ -2168,6 +2176,9 @@ table,
 .rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBJ1,
 .rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBNU,
 .rstudio-themes-flat .rstudio-themes-dark .GCHYANPCIQC,
+.rstudio-themes-flat .rstudio-themes-dark .GONVA-ECDSC,
+.rstudio-themes-flat .rstudio-themes-dark .GONVA-ECEU,
+.rstudio-themes-flat .rstudio-themes-dark .GONVA-ECNU,
 .rstudio-themes-flat.editor_dark h1,
 .rstudio-themes-flat.editor_dark h2,
 .rstudio-themes-flat.editor_dark h3,
@@ -2210,6 +2221,7 @@ textarea,
 .GCHYANPCO1,
 .GCHYANPCP1,
 .GCHYANPCP2,
+.GONVA-ECA3,
 .gwt-MenuItem-selected,
 .gwt-SuggestBoxPopup .item-selected,
 .gwt-TextBox-readonly,
@@ -2230,12 +2242,14 @@ textarea,
   border-color: var(--editor-background);
 }
 
-.GAQXDSOBIP .gwt-TabLayoutPanelTab {
+.GAQXDSOBIP .gwt-TabLayoutPanelTab,
+.GONVA-ECIP .gwt-TabLayoutPanelTab {
   background: var(--editor-background);
   color: var(--editor-foreground);
 }
 
-.GAQXDSOBIP .gwt-TabLayoutPanelTab-selected {
+.GAQXDSOBIP .gwt-TabLayoutPanelTab-selected,
+.GONVA-ECIP .gwt-TabLayoutPanelTab-selected {
   background: rgb(60, 60, 60);
 }
 
@@ -2261,8 +2275,10 @@ textarea,
   color: var(--editor-foreground);
 }
 
+/* Git diff - dark red highlight */
 .GCHYANPCGWC,
-.GAQXDSOBGXC {
+.GAQXDSOBGXC,
+.GONVA-ECBYC {
   background: rgb(99, 42, 38);
   color: var(--editor-foreground);
 }
@@ -2278,13 +2294,16 @@ textarea,
   background: rgb(60, 60, 60) !important;
 }
 
+/* dark green with grey border.....? */
 .GCHYANPCJ- td {
   background: rgb(67, 96, 57);
   border-color: rgb(60, 60, 60);
 }
 
+/* Git diff - dark green highlight */
 .GAQXDSOBKXC,
-.GCHYANPCKWC {
+.GCHYANPCKWC,
+.GONVA-ECFYC {
   background: rgb(88, 130, 68);
   color: var(--editor-foreground);
 }
@@ -2294,13 +2313,17 @@ textarea,
   background: var(--toolbar);
 }
 
+/* small square at bottom right of modify keyboard shortcuts menu */
 .GAQXDSOBNH,
-.GCHYANPCNH {
+.GCHYANPCNH,
+.GONVA-ECNH {
   background: transparent;
 }
 
+/* modified keyboard shortcuts - dark turquoise green */
 .GAQXDSOBPX td,
-.GCHYANPCOX td {
+.GCHYANPCOX td,
+.GONVA-ECPX td {
   background: rgb(38, 89, 89);
   border-color: rgb(60, 60, 60);
 }
@@ -2334,11 +2357,15 @@ textarea,
   font-feature-settings: "ss01", "ss02", "ss03", "ss05", "ss06", "ss07";
 }
 
-/* Fix font issue for Command Pallette/Error Traceback, caused by above */
+/* Fix other font issues caused by above */
 div.GAQXDSOBOGD,
 select.gwt-ListBox,
 .editor_dark .GAQXDSOBG5C,
-.GAQXDSOBGFD {
+.GAQXDSOBGFD,
+.GONVA-ECFID,
+.GONVA-ECJVC div,
+.GONVA-ECNVC div,
+.GONVA-ECPHD {
   /* font-family: sans-serif, serif !important; */
   /* font-family: "Arial", monospace; */
   font-family: "Liberation Sans", monospace;
