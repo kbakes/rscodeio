@@ -2164,6 +2164,7 @@ table,
 .GONVA-ECHSB td.GONVA-ECHSB,
 .GONVA-ECIW,
 .GONVA-ECJ1,
+.GONVA-ECKGC,
 .GONVA-ECL2C,
 .GONVA-ECP2,
 /* .gwt-MenuBar>table, */
@@ -2238,7 +2239,10 @@ textarea,
   color: var(--editor-foreground);
 }
 
-.GAQXDSOBAGC {
+/* Update Packages menu */
+.GAQXDSOBAGC,
+.GONVA-ECLGC,
+.GONVA-ECNGC {
   background: rgb(60, 60, 60);
   border-color: var(--editor-background);
 }
@@ -2254,12 +2258,6 @@ textarea,
   background: rgb(60, 60, 60);
 }
 
-.GAQXDSOBHGC {
-  background: rgb(60, 60, 60);
-  border-color: var(--editor-background);
-  color: var(--editor-foreground);
-}
-
 .GCHYANPCCFC {
   background: var(--editor-background);
   border-color: var(--editor-background);
@@ -2270,7 +2268,11 @@ textarea,
   border-color: rgb(60, 60, 60);
 }
 
-.GCHYANPCFD, .GCHYANPCHFC {
+/* table headings etc. */
+.GCHYANPCFD,
+.GCHYANPCHFC,
+.GAQXDSOBHGC,
+.GONVA-ECCHC {
   background: rgb(60, 60, 60);
   border-color: var(--editor-background);
   color: var(--editor-foreground);
