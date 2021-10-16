@@ -2166,6 +2166,7 @@ table,
 .GONVA-ECJ1,
 .GONVA-ECKGC,
 .GONVA-ECL2C,
+.GONVA-ECMDD,
 .GONVA-ECP2,
 /* .gwt-MenuBar>table, */
 .rstudio-HyperlinkLabel,
@@ -2235,7 +2236,7 @@ textarea,
 .search .GCHYANPCDR,
 .search .GCHYANPCPS,
 .subMenuIcon-selected {
-  background: rgb(60, 60, 60);
+  background: rgb(51, 51, 51);
   color: var(--editor-foreground);
 }
 
@@ -2243,7 +2244,7 @@ textarea,
 .GAQXDSOBAGC,
 .GONVA-ECLGC,
 .GONVA-ECNGC {
-  background: rgb(60, 60, 60);
+  background: rgb(51, 51, 51);
   border-color: var(--editor-background);
 }
 
@@ -2255,7 +2256,7 @@ textarea,
 
 .GAQXDSOBIP .gwt-TabLayoutPanelTab-selected,
 .GONVA-ECIP .gwt-TabLayoutPanelTab-selected {
-  background: rgb(60, 60, 60);
+  background: rgb(51, 51, 51);
 }
 
 .GCHYANPCCFC {
@@ -2264,8 +2265,8 @@ textarea,
 }
 
 .GCHYANPCCGC {
-  background: rgb(60, 60, 60);
-  border-color: rgb(60, 60, 60);
+  background: rgb(51, 51, 51);
+  border-color: rgb(51, 51, 51);
 }
 
 /* table headings etc. */
@@ -2273,7 +2274,7 @@ textarea,
 .GCHYANPCHFC,
 .GAQXDSOBHGC,
 .GONVA-ECCHC {
-  background: rgb(60, 60, 60);
+  background: rgb(51, 51, 51);
   border-color: var(--editor-background);
   color: var(--editor-foreground);
 }
@@ -2289,18 +2290,18 @@ textarea,
 .GCHYANPCHK,
 .GCHYANPCIP .gwt-TabLayoutPanelContentContainer {
   background: var(--editor-background);
-  border-color: rgb(60, 60, 60);
+  border-color: rgb(51, 51, 51);
 }
 
 /* 'New Project' menus (can't figure out highlighting... ::selection??) */
 .GCHYANPCJ3 {
-  background: rgb(60, 60, 60) !important;
+  background: rgb(51, 51, 51) !important;
 }
 
 /* dark green with grey border.....? */
 .GCHYANPCJ- td {
   background: rgb(67, 96, 57);
-  border-color: rgb(60, 60, 60);
+  border-color: rgb(51, 51, 51);
 }
 
 /* Git diff - dark green highlight */
@@ -2328,11 +2329,11 @@ textarea,
 .GCHYANPCOX td,
 .GONVA-ECPX td {
   background: rgb(38, 89, 89);
-  border-color: rgb(60, 60, 60);
+  border-color: rgb(51, 51, 51);
 }
 
 .GCHYANPCPX {
-  border-bottom-color: rgb(60, 60, 60);
+  border-bottom-color: rgb(51, 51, 51);
 }
 
 .rstudio-themes-flat input[type="checkbox"],
@@ -2342,13 +2343,13 @@ textarea,
 }
 
 .rstudio-themes-flat .GCHYANPCPX:first-child {
-  border-left-color: rgb(60, 60, 60);
+  border-left-color: rgb(51, 51, 51);
 }
 
 .rstudio-themes-flat .gwt-DialogBox,
 .rstudio-themes-flat .gwt-DialogBox .dialogTopCenter {
-  background: rgb(60, 60, 60);
-  border-color: rgb(60, 60, 60);
+  background: rgb(51, 51, 51);
+  border-color: rgb(51, 51, 51);
 }
 
 /* Fonts */
