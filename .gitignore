@@ -25,11 +25,4 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 # Other
-/*.R
-/*.Rmd
-/*.html
-/*.theme
-/*.rstheme
-/*.css
-/*.qss
-/*.png
+various

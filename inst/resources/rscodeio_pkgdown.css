@@ -54,7 +54,6 @@ pre.usage {
 
 pre:not([class]) {
   background-color: rgb(30, 30, 30);
-  /* color: rgb(204, 204, 204); */
   color: rgb(106, 153, 85);
 }
 

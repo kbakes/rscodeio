@@ -4,25 +4,27 @@
 /* Main Body, Headings, Code Chunks */
 
 body,
-pre:not([class]),
 .list-group-item,
 .nav-pills > li > a,
 .nav-tabs > li > a {
-  /* background-color: rgb(30, 30, 30); */
-  background-color: rgb(51, 51, 51);
+  background-color: rgb(30, 30, 30);
+  /* background-color: rgb(51, 51, 51); */
   color: rgb(204, 204, 204);
-}
-
-code {
-  white-space: pre-wrap !important;
 }
 
 code,
 pre {
-  border-color: rgb(62, 64, 66);
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(62, 64, 66);
+  color: rgb(204, 204, 204);
   font-family: "Fira Code Light", Menlo, Monaco, Consolas, "Courier New",
     monospace;
   font-feature-settings: "ss01", "ss02", "ss03", "ss05", "ss06", "ss07";
+  white-space: pre-wrap !important;
+}
+
+pre code {
+  border: none;
 }
 
 pre.sourceCode {
@@ -31,6 +33,12 @@ pre.sourceCode {
   overflow: auto;
 }
 
+pre:not([class]) {
+  background-color: rgb(30, 30, 30);
+  color: rgb(106, 153, 85);
+}
+
+.list-group-item:hover,
 .list-group-item.active,
 .list-group-item.active:focus,
 .list-group-item.active:hover,
@@ -39,8 +47,10 @@ pre.sourceCode {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:focus,
 .nav-pills > li.active > a:hover {
-  background-color: rgb(60, 60, 60);
-  color: rgb(204, 204, 204);
+  background-color: rgb(51, 51, 51);
+  /* background-color: rgb(30, 30, 30); */
+  /* color: rgb(204, 204, 204); */
+  color: rgb(12, 227, 172);
 }
 
 /* Syntax Highlighting */
