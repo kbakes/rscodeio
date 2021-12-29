@@ -2158,18 +2158,23 @@ table,
 .GCHYANPCOU,
 .GCHYANPCOU td,
 .GONVA-ECC2C,
+.GONVA-ECF4C,
+.GONVA-ECG4C,
 .GONVA-ECH-,
 .GONVA-ECHK,
 .GONVA-ECHSB td.GONVA-ECHSB,
+.GONVA-ECI5C,
 .GONVA-ECIW,
 .GONVA-ECJ1,
 .GONVA-ECKGC,
 .GONVA-ECL2C,
 .GONVA-ECMDD,
 .GONVA-ECP2,
-/* .gwt-MenuBar>table, */
 .rstudio-HyperlinkLabel,
-.rstudio-themes-dark .gwt-TabLayoutPanelContent > div:nth-last-child(2):nth-child(4) .rstudio-themes-background,
+.rstudio-themes-dark
+  .gwt-TabLayoutPanelContent
+  > div:nth-last-child(2):nth-child(4)
+  .rstudio-themes-background,
 .rstudio-themes-dark.editor_dark.ace_editor_theme div,
 .rstudio-themes-flat .GCHYANPCG-,
 .rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBEU,
@@ -2203,7 +2208,6 @@ table,
   color: var(--editor-foreground) !important;
 }
 
-/* button, */
 input,
 select,
 textarea,

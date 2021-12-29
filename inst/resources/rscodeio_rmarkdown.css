@@ -3,6 +3,12 @@
 
 /* Main Body, Headings, Code Chunks */
 
+a,
+a:focus,
+a:hover {
+  color: rgb(12, 227, 172)
+}
+
 body,
 .list-group-item,
 .nav-pills > li > a,
@@ -16,7 +22,7 @@ code,
 pre {
   background-color: rgb(34, 34, 34);
   border: 1px solid rgb(62, 64, 66);
-  color: rgb(204, 204, 204);
+  /* color: rgb(204, 204, 204); */
   font-family: "Fira Code Light", Menlo, Monaco, Consolas, "Courier New",
     monospace;
   font-feature-settings: "ss01", "ss02", "ss03", "ss05", "ss06", "ss07";
@@ -29,7 +35,7 @@ pre code {
 
 pre.sourceCode {
   background-color: rgb(34, 34, 34);
-  color: rgb(156, 220, 254);
+  /* color: rgb(156, 220, 254); */
   overflow: auto;
 }
 
@@ -54,7 +60,6 @@ pre:not([class]) {
 }
 
 /* Syntax Highlighting */
-/* (build on zenburn css: https://github.com/tajmone/pandoc-goodies/blob/master/skylighting/css/built-in-styles/zenburn.css) */
 
 /* rscodeio highlighting (can't map yet: type-declaration, regex)
 :root {
@@ -71,6 +76,11 @@ pre:not([class]) {
     --inline-code: var(--string);
 } */
 
+/* Attribute, Variable */
+code span.at,
+code span.va {
+  color: rgb(156, 220, 254);
+}
 /* BuiltIn, Function */
 code span.bu,
 code span.fu {
@@ -82,13 +92,15 @@ code span.im,
 code span.kw {
   color: rgb(197, 134, 192);
 }
-/* Constant */
-code span.cn {
+/* Constant, SpecialChar */
+code span.cn,
+code span.sc {
   color: rgb(86, 156, 214);
   font-weight: normal;
 }
-/* Comment */
-code span.co {
+/* Comment, Message */
+code span.co,
+code span.do {
   color: rgb(106, 153, 85);
   font-style: normal;
 }
@@ -97,84 +109,14 @@ code span.dv,
 code span.fl {
   color: rgb(181, 206, 168);
 }
-/* Operator, Other, SpecialChar */
+/* Operator, Other */
 code span.op,
-code span.ot,
-code span.sc {
+code span.ot {
   color: rgb(204, 204, 204);
 }
 /* String */
 code span.st {
   color: rgb(206, 145, 120);
-}
-
-/* zenburn highlighting */
-
-/* Alert */
-code span.al {
-  color: #ffcfaf;
-}
-/* Annotation */
-code span.an {
-  color: #7f9f7f;
-  font-weight: bold;
-}
-/* Attribute */
-code span.at {
-}
-/* BaseN */
-code span.bn {
-  color: #dca3a3;
-}
-/* Char */
-code span.ch {
-  color: #dca3a3;
-}
-/* CommentVar */
-code span.cv {
-  color: #7f9f7f;
-  font-weight: bold;
-}
-/* Documentation */
-code span.do {
-  color: #7f9f7f;
-}
-/* DataType */
-code span.dt {
-  color: #dfdfbf;
-}
-/* Error */
-code span.er {
-  color: #c3bf9f;
-}
-/* Extension */
-code span.ex {
-}
-/* Information */
-code span.in {
-  color: #7f9f7f;
-  font-weight: bold;
-}
-/* Preprocessor */
-code span.pp {
-  color: #ffcfaf;
-  font-weight: bold;
-}
-/* SpecialString */
-code span.ss {
-  color: #cc9393;
-}
-/* Variable */
-code span.va {
-}
-/* VerbatimString */
-code span.vs {
-  color: #cc9393;
-}
-/* Warning */
-code span.wa {
-  color: #7f9f7f;
-  font-weight: bold;
 }
 
 /* Alternative Syntax Highlighting: highlight.js (incomplete) */
@@ -192,7 +134,7 @@ code span.wa {
 /* other or don't work */
 /* .hljs-class { color: rgb(78, 201, 176); } /* --type-declaration ? */
 /* .hljs-function { color: rgb(220, 220, 170); } /* --function-declaration ? */
-/* .hljs-built_in { color: rgb(220, 220, 170); }
+/* .hljs-built_in { color: rgb(220, 220, 170); } */
 /* .hljs-variable { color: rgb(156, 220, 254); } /* --variable ? */
 /* .hljs-section { color: rgb(86, 156, 214); } /* --heading ? */
 /* .hljs-operator { color: rgb(204, 204, 204); } */

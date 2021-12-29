@@ -1,0 +1,115 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+/* rscodeio Package Theme for Rmarkdown */
+/* (https://github.com/murphymv/rscodeio, forked from: https://github.com/anthonynorth/rscodeio)
+
+/* Main Body, Headings, Code Chunks */
+
+.book .book-body,
+.book .book-body .page-wrapper .page-inner section,
+.book .book-body .page-wrapper .page-inner section.normal {
+  background-color: rgb(30, 30, 30);
+  /* background-color: rgb(51, 51, 51); */
+  color: rgb(204, 204, 204);
+}
+
+.book .book-body .page-wrapper .page-inner section.normal code,
+.book .book-body .page-wrapper .page-inner section.normal pre {
+  background-color: rgb(34, 34, 34);
+  border: 1px solid rgb(62, 64, 66);
+  /* color: rgb(204, 204, 204); */
+  font-family: "Fira Code Light", Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  font-feature-settings: "ss01", "ss02", "ss03", "ss05", "ss06", "ss07";
+  white-space: pre-wrap !important;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal pre code {
+  /* color: rgb(156, 220, 254); */
+  border: none;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal pre.sourceCode {
+  /* color: rgb(156, 220, 254); */
+  overflow: auto;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal pre:not([class]) {
+  background-color: rgb(30, 30, 30);
+  color: rgb(106, 153, 85);
+}
+
+.book .book-header,
+.book .book-summary ul.summary,
+.book .book-summary ul.summary li a,
+.book .book-summary ul.summary li span,
+.book .book-summary ul.summary li ul {
+  /* background-color: rgb(30, 30, 30); */
+  background-color: rgb(51, 51, 51) !important;
+  color: rgb(204, 204, 204);
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a,
+.book .book-header h1 a:hover,
+.book .book-summary ul.summary li a:hover,
+.book .book-summary ul.summary li.active > a {
+  color: rgb(12, 227, 172);
+}
+
+/* Syntax Highlighting */
+
+/* Attribute, Variable */
+code span.at,
+code span.va {
+  color: rgb(156, 220, 254);
+}
+/* BuiltIn, Function */
+code span.bu,
+code span.fu {
+  color: rgb(220, 220, 170);
+}
+/* ControlFlow, Import, Keyword */
+code span.cf,
+code span.im,
+code span.kw {
+  color: rgb(197, 134, 192);
+}
+/* Constant, SpecialChar */
+code span.cn,
+code span.sc {
+  color: rgb(86, 156, 214);
+  font-weight: normal;
+}
+/* Comment, Message */
+code span.co,
+code span.do {
+  color: rgb(106, 153, 85);
+  font-style: normal;
+}
+/* DecVal, Float */
+code span.dv,
+code span.fl {
+  color: rgb(181, 206, 168);
+}
+/* Operator, Other */
+code span.op,
+code span.ot {
+  color: rgb(204, 204, 204);
+}
+/* String */
+code span.st {
+  color: rgb(206, 145, 120);
+}
