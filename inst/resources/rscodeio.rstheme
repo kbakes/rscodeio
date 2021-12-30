@@ -2128,39 +2128,9 @@
 
 a:-webkit-any-link,
 div.GONVA-ECL2C,
-table,
-.GAQXDSOBA2C,
-.GAQXDSOBE3B,
-.GAQXDSOBH-,
-.GAQXDSOBH1C,
-.GAQXDSOBHK,
-.GAQXDSOBICD,
-.GAQXDSOBIW,
-.GAQXDSOBJ1,
-.GAQXDSOBLRC td,
-.GAQXDSOBMRB td.GAQXDSOBMRB,
-.GAQXDSOBP2,
-.GAQXDSOBP2B,
-.GAQXDSOBPFC,
-.GCHYANPCA1C,
-.GCHYANPCDWC,
-.GCHYANPCE2B,
-.GCHYANPCGE,
-.GCHYANPCG0C,
-.GCHYANPCH0C,
-.GCHYANPCH3,
-.GCHYANPCHBD,
-.GCHYANPCHW,
-.GCHYANPCI1,
-.GCHYANPCJ2B,
-.GCHYANPCKRB td.GCHYANPCKRB,
-.GCHYANPCO2,
-.GCHYANPCOU,
-.GCHYANPCOU td,
 .GONVA-ECC2C,
 .GONVA-ECF4C,
 .GONVA-ECG4C,
-.GONVA-ECH-,
 .GONVA-ECHK,
 .GONVA-ECHSB td.GONVA-ECHSB,
 .GONVA-ECI5C,
@@ -2171,8 +2141,6 @@ table,
 .GONVA-ECMDD,
 .GONVA-ECP2,
 .rstudio-HyperlinkLabel,
-.rstudio-themes-dark .gwt-TabLayoutPanelContent > div:nth-last-child(2):nth-child(4) .rstudio-themes-background,
-/* .rstudio-themes-dark.editor_dark.ace_editor_theme div, */
 .rstudio-themes-dark-menus .filterPopup,
 .rstudio-themes-flat .GCHYANPCG-,
 .rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBEU,
@@ -2184,15 +2152,6 @@ table,
 .rstudio-themes-flat .rstudio-themes-dark .GONVA-ECDSC,
 .rstudio-themes-flat .rstudio-themes-dark .GONVA-ECEU,
 .rstudio-themes-flat .rstudio-themes-dark .GONVA-ECNU,
-.rstudio-themes-flat.editor_dark h1,
-.rstudio-themes-flat.editor_dark h2,
-.rstudio-themes-flat.editor_dark h3,
-.rstudio-themes-flat.editor_dark h4,
-.rstudio-themes-flat.editor_dark h5,
-.rstudio-themes-flat.editor_dark h6,
-.rstudio-themes-flat.editor_dark table,
-.rstudio-themes-flat.editor_dark.ace_editor_theme a,
-.rstudio-themes-flat.editor_dark.ace_editor_theme p,
 .rstudio-themes-flat.rstudio-themes-dark.editor_dark.ace_editor_theme p code,
 .rstudio-themes-flat.rstudio-themes-dark-grey .colFilter,
 .themedPopupPanel .popupTopCenter,
@@ -2203,7 +2162,7 @@ table,
 .themedPopupPanel .popupBottomCenter,
 .themedPopupPanel .popupBottomLeft,
 .themedPopupPanel .popupBottomRight {
-  background: var(--editor-background) !important;
+  background: var(--editor-background);
   color: var(--editor-foreground) !important;
 }
 
@@ -2211,135 +2170,74 @@ input,
 select,
 textarea,
 .dataGridHeader,
-.GAQXDSOBA3,
-.GAQXDSOBIXC,
-.GCHYANPCA1C .gwt-SplitLayoutPanel-HDragger,
-.GCHYANPCD0C .gwt-SplitLayoutPanel-VDragger,
-.GCHYANPCEJD,
-.GCHYANPCF3,
-.GCHYANPCF3:focus,
-.GCHYANPCIWC,
-.GCHYANPCLJ,
-.GCHYANPCM1,
-.GCHYANPCNAD,
-.GCHYANPCNYC,
-.GCHYANPCO1,
-.GCHYANPCP1,
-.GCHYANPCP2,
 .GONVA-ECA3,
 .gwt-MenuItem-selected,
 .gwt-SuggestBoxPopup .item-selected,
 .gwt-TextBox-readonly,
 .rstudio-themes-flat .rstudio-themes-dark .dataGridHeader,
 .rstudio-themes-flat .search,
-.rstudio-themes-flat.editor_dark td.first-child,
-.rstudio-themes-flat.editor_dark th,
 .rstudio-themes-flat.rstudio-themes-dark-grey .numValueBox,
 .rstudio-themes-flat.rstudio-themes-dark-menus .search,
 .rstudio-themes-flat.rstudio-themes-dark-menus .search input,
 .search .rstheme_center,
-.search .GCHYANPCDR,
-.search .GCHYANPCPS,
 .subMenuIcon-selected {
   background: rgb(60, 60, 60);
   color: var(--editor-foreground);
 }
 
+/* Options menu buttons etc. */
+table,
+.GONVA-ECH-,
+.rstudio-themes-dark .gwt-TabLayoutPanelContent > div:nth-last-child(2):nth-child(4) .rstudio-themes-background {
+  background: var(--editor-background) !important;
+  color: var(--editor-foreground) !important;
+}
+
 /* Update Packages menu */
-.GAQXDSOBAGC,
 .GONVA-ECLGC,
 .GONVA-ECNGC {
   background: rgb(60, 60, 60);
   border-color: var(--editor-background);
 }
 
-.GAQXDSOBIP .gwt-TabLayoutPanelTab,
 .GONVA-ECIP .gwt-TabLayoutPanelTab {
   background: var(--editor-background);
   color: var(--editor-foreground);
 }
 
-.GAQXDSOBIP .gwt-TabLayoutPanelTab-selected,
 .GONVA-ECIP .gwt-TabLayoutPanelTab-selected {
   background: rgb(60, 60, 60);
 }
 
-.GCHYANPCCFC {
-  background: var(--editor-background);
-  border-color: var(--editor-background);
-}
-
-.GCHYANPCCGC {
-  background: rgb(60, 60, 60);
-  border-color: rgb(60, 60, 60);
-}
-
 /* table headings etc. */
-.GCHYANPCFD,
-.GCHYANPCHFC,
-.GAQXDSOBHGC,
 .GONVA-ECCHC {
   background: rgb(60, 60, 60);
   border-color: var(--editor-background);
   color: var(--editor-foreground);
 }
 
-/* Git diff - dark red highlight */
-.GCHYANPCGWC,
-.GAQXDSOBGXC,
+/* Git diff removed - dark red highlight */
 .GONVA-ECBYC {
   background: rgb(99, 42, 38);
   color: var(--editor-foreground);
 }
 
-.GCHYANPCHK,
-.GCHYANPCIP .gwt-TabLayoutPanelContentContainer {
-  background: var(--editor-background);
-  border-color: rgb(60, 60, 60);
-}
-
-/* 'New Project' menus (can't figure out highlighting... ::selection??) */
-.GCHYANPCJ3 {
-  background: rgb(60, 60, 60) !important;
-}
-
-/* dark green with grey border.....? */
-.GCHYANPCJ- td {
-  background: rgb(67, 96, 57);
-  border-color: rgb(60, 60, 60);
-}
-
-/* Git diff - dark green highlight */
-.GAQXDSOBKXC,
-.GCHYANPCKWC,
+/* Git diff added - dark green highlight */
 .GONVA-ECFYC {
   background: rgb(88, 130, 68);
   color: var(--editor-foreground);
 }
 
-.GCHYANPCLQC div,
-.GCHYANPCLQC td {
-  background: var(--toolbar);
-}
-
 /* small square at bottom right of modify keyboard shortcuts menu */
-.GAQXDSOBNH,
-.GCHYANPCNH,
 .GONVA-ECNH {
   background: transparent;
 }
 
 /* modified keyboard shortcuts - dark turquoise green */
-.GONVA-ECK- td .GAQXDSOBPX td,
-.GCHYANPCOX td,
 .GONVA-ECK- td,
 .GONVA-ECPX td {
   background: rgb(38, 89, 89);
   border-color: rgb(60, 60, 60);
-}
-
-.GCHYANPCPX {
-  border-bottom-color: rgb(60, 60, 60);
 }
 
 /* Insert Citations menu */
@@ -2347,14 +2245,26 @@ textarea,
   color: rgb(100, 100, 100) !important;
 }
 
+/* data tables, headings, links, etc. */
+.rstudio-themes-dark.editor_dark.ace_editor_theme div,
+.rstudio-themes-flat.editor_dark h1,
+.rstudio-themes-flat.editor_dark h2,
+.rstudio-themes-flat.editor_dark h3,
+.rstudio-themes-flat.editor_dark h4,
+.rstudio-themes-flat.editor_dark h5,
+.rstudio-themes-flat.editor_dark h6,
+.rstudio-themes-flat.editor_dark table,
+.rstudio-themes-flat.editor_dark td.first-child,
+.rstudio-themes-flat.editor_dark th,
+.rstudio-themes-flat.editor_dark.ace_editor_theme a,
+.rstudio-themes-flat.editor_dark.ace_editor_theme p {
+  color: var(--editor-foreground) !important;
+}
+
 .rstudio-themes-flat input[type="checkbox"],
 .rstudio-themes-flat .rstudio-themes-dark input[type="checkbox"] {
   background: rgb(176, 176, 176);
   border-color: transparent;
-}
-
-.rstudio-themes-flat .GCHYANPCPX:first-child {
-  border-left-color: rgb(60, 60, 60);
 }
 
 .rstudio-themes-flat .gwt-DialogBox,
@@ -2367,22 +2277,16 @@ textarea,
 
 /* Fira Code stylistic sets */
 .ace_editor,
-.GAQXDSOBJ1C,
 .rstudio-fixed-width-font {
   font-feature-settings: "ss01", "ss02", "ss03", "ss05", "ss06", "ss07";
 }
 
-/* Fix other font issues caused by above */
-div.GAQXDSOBOGD,
+/* Fix other font issues seemingly caused by above */
 select.gwt-ListBox,
-.editor_dark .GAQXDSOBG5C,
-.GAQXDSOBGFD,
 .GONVA-ECFID,
 .GONVA-ECJVC div,
 .GONVA-ECKGD,
 .GONVA-ECNVC div,
 .GONVA-ECPHD {
-  /* font-family: sans-serif, serif !important; */
-  /* font-family: "Arial", monospace; */
   font-family: "Liberation Sans", monospace;
 }
