@@ -2124,31 +2124,24 @@
   background-color: #eeeeee;
 }
 
-/* MY EDITS */
+/* MY CHANGES */
 
+/* Dark background, light text (forced) */
 a:-webkit-any-link,
-div.GONVA-ECL2C,
-.GONVA-ECC2C,
-.GONVA-ECF4C,
-.GONVA-ECG4C,
-.GONVA-ECHK,
-.GONVA-ECHSB td.GONVA-ECHSB,
-.GONVA-ECI5C,
-.GONVA-ECIW,
-.GONVA-ECJ1,
-.GONVA-ECKGC,
-.GONVA-ECL2C,
-.GONVA-ECMDD,
-.GONVA-ECP2,
+.GEL-OVUBA1,
+.GEL-OVUBBW,
+.GEL-OVUBBHC,
+.GEL-OVUBC2,
+.GEL-OVUBEJD,
+.GEL-OVUBHK,
+.GEL-OVUBL2,
+.GEL-OVUBM3C,
+.GEL-OVUBOSB td.GEL-OVUBOSB,
+.GEL-OVUBOY,
+.GEL-OVUBPSC div,
+.GEL-OVUBPSC td,
 .rstudio-HyperlinkLabel,
 .rstudio-themes-dark-menus .filterPopup,
-.rstudio-themes-flat .GCHYANPCG-,
-.rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBEU,
-.rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBI1,
-.rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBIRC,
-.rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBJ1,
-.rstudio-themes-flat .rstudio-themes-dark .GAQXDSOBNU,
-.rstudio-themes-flat .rstudio-themes-dark .GCHYANPCIQC,
 .rstudio-themes-flat .rstudio-themes-dark .GONVA-ECDSC,
 .rstudio-themes-flat .rstudio-themes-dark .GONVA-ECEU,
 .rstudio-themes-flat .rstudio-themes-dark .GONVA-ECNU,
@@ -2166,11 +2159,21 @@ div.GONVA-ECL2C,
   color: var(--editor-foreground) !important;
 }
 
+/* Dark background (forced), light text (forced) */
+/* Options menu buttons etc. */
+table,
+.rstudio-themes-dark .GEL-OVUBHU button,
+.rstudio-themes-dark .gwt-TabLayoutPanelContent > div:nth-last-child(2):nth-child(4) .rstudio-themes-background {
+  background: var(--editor-background) !important;
+  color: var(--editor-foreground) !important;
+}
+
+/* Grey background, light text */
 input,
 select,
 textarea,
 .dataGridHeader,
-.GONVA-ECA3,
+.GEL-OVUBD2,
 .gwt-MenuItem-selected,
 .gwt-SuggestBoxPopup .item-selected,
 .gwt-TextBox-readonly,
@@ -2185,59 +2188,45 @@ textarea,
   color: var(--editor-foreground);
 }
 
-/* Options menu buttons etc. */
-table,
-.GONVA-ECH-,
-.rstudio-themes-dark .gwt-TabLayoutPanelContent > div:nth-last-child(2):nth-child(4) .rstudio-themes-background {
-  background: var(--editor-background) !important;
-  color: var(--editor-foreground) !important;
-}
-
 /* Update Packages menu */
-.GONVA-ECLGC,
-.GONVA-ECNGC {
+.GEL-OVUBCHC,
+.GEL-OVUBJHC {
   background: rgb(60, 60, 60);
   border-color: var(--editor-background);
+  color: var(--editor-foreground);
 }
 
-.GONVA-ECIP .gwt-TabLayoutPanelTab {
+/* Options menu top buttons */
+.GEL-OVUBOO .gwt-TabLayoutPanelTab {
   background: var(--editor-background);
   color: var(--editor-foreground);
 }
-
-.GONVA-ECIP .gwt-TabLayoutPanelTab-selected {
+.GEL-OVUBOO .gwt-TabLayoutPanelTab-selected {
   background: rgb(60, 60, 60);
 }
 
-/* table headings etc. */
-.GONVA-ECCHC {
-  background: rgb(60, 60, 60);
-  border-color: var(--editor-background);
-  color: var(--editor-foreground);
-}
-
-/* Git diff removed - dark red highlight */
-.GONVA-ECBYC {
+/* Git diff: line removed (dark red highlight) */
+.GEL-OVUBC-C {
   background: rgb(99, 42, 38);
   color: var(--editor-foreground);
 }
-
-/* Git diff added - dark green highlight */
-.GONVA-ECFYC {
+/* Git diff: line added (dark green highlight) */
+.GEL-OVUBG-C {
   background: rgb(88, 130, 68);
   color: var(--editor-foreground);
 }
 
-/* small square at bottom right of modify keyboard shortcuts menu */
-.GONVA-ECNH {
-  background: transparent;
-}
-
-/* modified keyboard shortcuts - dark turquoise green */
-.GONVA-ECK- td,
-.GONVA-ECPX td {
+/* Modify keyboard shortcuts (dark turquoise green highlight) */
+.GEL-OVUBGX td {
   background: rgb(38, 89, 89);
-  border-color: rgb(60, 60, 60);
+}
+/* Modify keyboard shortcuts (dark orange highlight) */
+.GEL-OVUBFX {
+  background: rgb(71, 36, 0);
+}
+/* Modify keyboard shortcuts (small square at bottom right of menu) */
+.GEL-OVUBNH {
+  background: transparent;
 }
 
 /* Insert Citations menu */
@@ -2245,7 +2234,11 @@ table,
   color: rgb(100, 100, 100) !important;
 }
 
-/* data tables, headings, links, etc. */
+/* Data tables, headings, links, etc. */
+.GEL-OVUBEAB,
+.GEL-OVUBG5C,
+.GEL-OVUBH5C,
+.GEL-OVUBJAD,
 .rstudio-themes-dark.editor_dark.ace_editor_theme div,
 .rstudio-themes-flat.editor_dark h1,
 .rstudio-themes-flat.editor_dark h2,
@@ -2283,10 +2276,13 @@ table,
 
 /* Fix other font issues seemingly caused by above */
 select.gwt-ListBox,
-.GONVA-ECFID,
-.GONVA-ECJVC div,
-.GONVA-ECKGD,
-.GONVA-ECNVC div,
-.GONVA-ECPHD {
+.editor_dark .GEL-OVUBLBD,
+.GEL-OVUBBID,
+.GEL-OVUBFID,
+.GEL-OVUBHID,
+.GEL-OVUBIBD .gwt-Label,
+.GEL-OVUBJBD td,
+.GEL-OVUBKWC div,
+.GEL-OVUBOWC div {
   font-family: "Liberation Sans", monospace;
 }
