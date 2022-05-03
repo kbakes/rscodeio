@@ -2275,12 +2275,15 @@ textarea,
 }
 
 /* Fix other font issues seemingly caused by above */
+
+
 select.gwt-ListBox,
 .editor_dark .GEL-OVUBLBD,
 .GEL-OVUBBID,
 .GEL-OVUBFID,
 .GEL-OVUBHID,
 .GEL-OVUBIBD .gwt-Label,
+.GEL-OVUBIGD,
 .GEL-OVUBJBD td,
 .GEL-OVUBKWC div,
 .GEL-OVUBOWC div {
