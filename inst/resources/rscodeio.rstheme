@@ -2126,25 +2126,28 @@
 
 /* MY CHANGES */
 
-/* Dark background, light text (forced) */
+/* Dark background (unforced), light text (forced) */
 a:-webkit-any-link,
-.GEL-OVUBA1,
-.GEL-OVUBBW,
-.GEL-OVUBBHC,
-.GEL-OVUBC2,
-.GEL-OVUBEJD,
-.GEL-OVUBHK,
-.GEL-OVUBL2,
-.GEL-OVUBM3C,
-.GEL-OVUBOSB td.GEL-OVUBOSB,
-.GEL-OVUBOY,
-.GEL-OVUBPSC div,
-.GEL-OVUBPSC td,
+.GND-IWGDABB,
+.GND-IWGDAIC,
+.GND-IWGDDL,
+.GND-IWGDH3,
+.GND-IWGDHAD,
+.GND-IWGDIAD,
+.GND-IWGDK-,
+.GND-IWGDK2C,
+.GND-IWGDKBD,
+.GND-IWGDM1,
+.GND-IWGDMTB td.GND-IWGDMTB,
+.GND-IWGDN4C,
+.GND-IWGDNW,
+.GND-IWGDO2,
 .rstudio-HyperlinkLabel,
+.rstudio-themes-dark .GND-IWGDCV, 
+.rstudio-themes-dark .GND-IWGDDTC button.rstudio-themes-inverts[aria-pressed="true"],
+.rstudio-themes-dark .GND-IWGDIV,
+.rstudio-themes-dark .GND-IWGDJU,
 .rstudio-themes-dark-menus .filterPopup,
-.rstudio-themes-flat .rstudio-themes-dark .GONVA-ECDSC,
-.rstudio-themes-flat .rstudio-themes-dark .GONVA-ECEU,
-.rstudio-themes-flat .rstudio-themes-dark .GONVA-ECNU,
 .rstudio-themes-flat.rstudio-themes-dark.editor_dark.ace_editor_theme p code,
 .rstudio-themes-flat.rstudio-themes-dark-grey .colFilter,
 .themedPopupPanel .popupTopCenter,
@@ -2162,7 +2165,7 @@ a:-webkit-any-link,
 /* Dark background (forced), light text (forced) */
 /* Options menu buttons etc. */
 table,
-.rstudio-themes-dark .GEL-OVUBHU button,
+/* .rstudio-themes-dark .GND-IWGDDTC button, */
 .rstudio-themes-dark .gwt-TabLayoutPanelContent > div:nth-last-child(2):nth-child(4) .rstudio-themes-background {
   background: var(--editor-background) !important;
   color: var(--editor-foreground) !important;
@@ -2173,10 +2176,13 @@ input,
 select,
 textarea,
 .dataGridHeader,
-.GEL-OVUBD2,
+.GND-IWGDFD,
+.GND-IWGDJQB,
+.GND-IWGDP2,
 .gwt-MenuItem-selected,
 .gwt-SuggestBoxPopup .item-selected,
 .gwt-TextBox-readonly,
+.popupPanel,
 .rstudio-themes-flat .rstudio-themes-dark .dataGridHeader,
 .rstudio-themes-flat .search,
 .rstudio-themes-flat.rstudio-themes-dark-grey .numValueBox,
@@ -2188,44 +2194,52 @@ textarea,
   color: var(--editor-foreground);
 }
 
+/* Code chunks in help section (examples etc.) */
+#roxygen_examples pre,
+.rstudio-themes-dark.editor_dark.ace_editor_theme pre,
+.rstudio-themes-dark.editor_dark.ace_editor_theme pre code {
+  background: rgb(34, 34, 34);
+  color: var(--editor-foreground);
+}
+
 /* Update Packages menu */
-.GEL-OVUBCHC,
-.GEL-OVUBJHC {
+.GND-IWGDBIC,
+.GND-IWGDIIC {
   background: rgb(60, 60, 60);
   border-color: var(--editor-background);
   color: var(--editor-foreground);
 }
 
 /* Options menu top buttons */
-.GEL-OVUBOO .gwt-TabLayoutPanelTab {
+.GND-IWGDKP .gwt-TabLayoutPanelTab {
   background: var(--editor-background);
   color: var(--editor-foreground);
 }
-.GEL-OVUBOO .gwt-TabLayoutPanelTab-selected {
+.GND-IWGDKP .gwt-TabLayoutPanelTab-selected {
   background: rgb(60, 60, 60);
 }
 
 /* Git diff: line removed (dark red highlight) */
-.GEL-OVUBC-C {
+.GND-IWGDD0C {
   background: rgb(99, 42, 38);
   color: var(--editor-foreground);
 }
 /* Git diff: line added (dark green highlight) */
-.GEL-OVUBG-C {
+.GND-IWGDH0C {
   background: rgb(88, 130, 68);
   color: var(--editor-foreground);
 }
 
 /* Modify keyboard shortcuts (dark turquoise green highlight) */
-.GEL-OVUBGX td {
+.GND-IWGDCY td {
   background: rgb(38, 89, 89);
 }
 /* Modify keyboard shortcuts (dark orange highlight) */
-.GEL-OVUBFX {
+.GND-IWGDBY {
   background: rgb(71, 36, 0);
 }
 /* Modify keyboard shortcuts (small square at bottom right of menu) */
-.GEL-OVUBNH {
+.GND-IWGDNH {
   background: transparent;
 }
 
@@ -2235,10 +2249,10 @@ textarea,
 }
 
 /* Data tables, headings, links, etc. */
-.GEL-OVUBEAB,
+/* .GEL-OVUBEAB,
 .GEL-OVUBG5C,
 .GEL-OVUBH5C,
-.GEL-OVUBJAD,
+.GEL-OVUBJAD, */
 .rstudio-themes-dark.editor_dark.ace_editor_theme div,
 .rstudio-themes-flat.editor_dark h1,
 .rstudio-themes-flat.editor_dark h2,
@@ -2275,10 +2289,7 @@ textarea,
 }
 
 /* Fix other font issues seemingly caused by above */
-
-
-select.gwt-ListBox,
-.editor_dark .GEL-OVUBLBD,
+/* .editor_dark .GEL-OVUBLBD,
 .GEL-OVUBBID,
 .GEL-OVUBFID,
 .GEL-OVUBHID,
@@ -2286,6 +2297,9 @@ select.gwt-ListBox,
 .GEL-OVUBIGD,
 .GEL-OVUBJBD td,
 .GEL-OVUBKWC div,
-.GEL-OVUBOWC div {
+.GEL-OVUBOWC div */
+div.GND-IWGDFJD,
+select.gwt-ListBox,
+.GND-IWGDHYC {
   font-family: "Liberation Sans", monospace;
 }
