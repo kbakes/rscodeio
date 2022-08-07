@@ -2165,7 +2165,6 @@ a:-webkit-any-link,
 /* Dark background (forced), light text (forced) */
 /* Options menu buttons etc. */
 table,
-/* .rstudio-themes-dark .GND-IWGDDTC button, */
 .rstudio-themes-dark .gwt-TabLayoutPanelContent > div:nth-last-child(2):nth-child(4) .rstudio-themes-background {
   background: var(--editor-background) !important;
   color: var(--editor-foreground) !important;
@@ -2249,10 +2248,6 @@ textarea,
 }
 
 /* Data tables, headings, links, etc. */
-/* .GEL-OVUBEAB,
-.GEL-OVUBG5C,
-.GEL-OVUBH5C,
-.GEL-OVUBJAD, */
 .rstudio-themes-dark.editor_dark.ace_editor_theme div,
 .rstudio-themes-flat.editor_dark h1,
 .rstudio-themes-flat.editor_dark h2,
@@ -2289,17 +2284,9 @@ textarea,
 }
 
 /* Fix other font issues seemingly caused by above */
-/* .editor_dark .GEL-OVUBLBD,
-.GEL-OVUBBID,
-.GEL-OVUBFID,
-.GEL-OVUBHID,
-.GEL-OVUBIBD .gwt-Label,
-.GEL-OVUBIGD,
-.GEL-OVUBJBD td,
-.GEL-OVUBKWC div,
-.GEL-OVUBOWC div */
 div.GND-IWGDFJD,
 select.gwt-ListBox,
-.GND-IWGDHYC {
+.GND-IWGDHYC,
+.GND-IWGDJHD {
   font-family: "Liberation Sans", monospace;
 }
