@@ -2131,6 +2131,7 @@ a:-webkit-any-link,
 .GND-IWGDABB,
 .GND-IWGDAIC,
 .GND-IWGDDL,
+.GND-IWGDE4C,
 .GND-IWGDH3,
 .GND-IWGDHAD,
 .GND-IWGDIAD,
@@ -2165,7 +2166,7 @@ a:-webkit-any-link,
 /* Dark background (forced), light text (forced) */
 /* Options menu buttons etc. */
 table,
-.rstudio-themes-dark .gwt-TabLayoutPanelContent > div:nth-last-child(2):nth-child(4) .rstudio-themes-background {
+.rstudio-themes-dark .rstudio-themes-background {
   background: var(--editor-background) !important;
   color: var(--editor-foreground) !important;
 }
@@ -2230,7 +2231,8 @@ textarea,
 }
 
 /* Modify keyboard shortcuts (dark turquoise green highlight) */
-.GND-IWGDCY td {
+.GND-IWGDCY td,
+.GND-IWGDN- td {
   background: rgb(38, 89, 89);
 }
 /* Modify keyboard shortcuts (dark orange highlight) */
