@@ -2292,3 +2292,37 @@ select.gwt-ListBox,
 .GND-IWGDJHD {
   font-family: "Liberation Sans", monospace;
 }
+
+/* Plots viewer */
+iframe#rstudio_plot_image_frame {
+  mix-blend-mode: multiply;
+}
+/* Plots viewer on hover*/
+div.ace_editor_theme:hover iframe#rstudio_plot_image_frame {
+  mix-blend-mode: normal;
+}
+
+#roxygen_examples pre {
+  background-color: rgb(var(--editor-background-color));
+  color: rgb(var(--editor-foreground-color));
+}
+
+.GONVA-ECHK,
+.GONVA-ECKGC,
+.GONVA-ECCHC {
+  background-color: rgb(var(--editor-background-color));
+}
+
+.GONVA-ECCHC,
+.GONVA-ECNGC,
+.GONVA-ECNHC {
+  border: 2px solid rgb(60, 60, 60);
+}
+
+.GONVA-ECLGC {
+  background-color: rgb(var(--editor-background-color));
+}
+
+.GONVA-ECKGC {
+  border: none;
+}
