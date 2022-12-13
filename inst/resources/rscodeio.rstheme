@@ -19,7 +19,7 @@
   --regex: rgb(209, 105, 105);
   --keyword: rgb(197, 134, 192);
   --function-declaration: rgb(220, 220, 170);
-  --variable: rgb(156, 220, 254);
+  --variable: rgb(220,220,220);
   --comment: rgb(218, 112, 214);
 
   /* markdown */
