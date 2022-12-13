@@ -113,7 +113,7 @@ pre:not([class]) {
 /* Comment, Message */
 .co,
 .message {
-  color: rgb(153, 50, 204);
+  color: rgb(218, 112, 214);
   font-weight: normal;
 }
 /* DecVal, Float */
