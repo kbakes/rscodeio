@@ -58,7 +58,7 @@ RStudio 1.2.x or higher.
 Get the package:
 
 ``` r
-remotes::install_github("mcoghill/rscodeio")
+remotes::install_github("kbakes/rscodeio")
 ```
 
 `rscodeio` modifies the theme of RStudio menus. These are not exposed by the current theming API and so this is achieved by modifying style sheets in the RStudio installation. To modify files in this area will likely require the installation to be run with administrator privileges. To do this:
