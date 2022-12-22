@@ -2124,25 +2124,37 @@
   background-color: #eeeeee;
 }
 
-/* MY CHANGES */
+/* * MY CHANGES */
 
-/* Dark background (unforced), light text (forced) */
+/* Dark background, light text (forced) */
+/* Various elements */
 a:-webkit-any-link,
+.GND-IWGDA5B, 
 .GND-IWGDABB,
 .GND-IWGDAIC,
+.GND-IWGDB5C,
+.GND-IWGDCVD,
 .GND-IWGDDL,
 .GND-IWGDE4C,
+.GND-IWGDEIC,
+.GND-IWGDF5B,
 .GND-IWGDH3,
 .GND-IWGDHAD,
+.GND-IWGDI4C,
 .GND-IWGDIAD,
+.GND-IWGDJKD,
 .GND-IWGDK-,
 .GND-IWGDK2C,
 .GND-IWGDKBD,
+.GND-IWGDLAD,
 .GND-IWGDM1,
+.GND-IWGDMAD,
 .GND-IWGDMTB td.GND-IWGDMTB,
 .GND-IWGDN4C,
 .GND-IWGDNW,
 .GND-IWGDO2,
+.GND-IWGDO2C,
+.GND-IWGDOBD,
 .rstudio-HyperlinkLabel,
 .rstudio-themes-dark .GND-IWGDCV, 
 .rstudio-themes-dark .GND-IWGDDTC button.rstudio-themes-inverts[aria-pressed="true"],
@@ -2172,11 +2184,13 @@ table,
 }
 
 /* Grey background, light text */
+/* Various elements */
 input,
 select,
 textarea,
 .dataGridHeader,
 .GND-IWGDFD,
+.GND-IWGDJ0C,
 .GND-IWGDJQB,
 .GND-IWGDP2,
 .gwt-MenuItem-selected,
@@ -2203,8 +2217,8 @@ textarea,
 }
 
 /* Update Packages menu */
-.GND-IWGDBIC,
-.GND-IWGDIIC {
+.GND-IWGDFIC,
+.GND-IWGDMIC {
   background: rgb(60, 60, 60);
   border-color: var(--editor-background);
   color: var(--editor-foreground);
@@ -2220,12 +2234,12 @@ textarea,
 }
 
 /* Git diff: line removed (dark red highlight) */
-.GND-IWGDD0C {
+.GND-IWGDH0C {
   background: rgb(99, 42, 38);
   color: var(--editor-foreground);
 }
 /* Git diff: line added (dark green highlight) */
-.GND-IWGDH0C {
+.GND-IWGDL0C {
   background: rgb(88, 130, 68);
   color: var(--editor-foreground);
 }
@@ -2236,7 +2250,10 @@ textarea,
   background: rgb(38, 89, 89);
 }
 /* Modify keyboard shortcuts (dark orange highlight) */
-.GND-IWGDBY {
+.GND-IWGDB4,
+.GND-IWGDBY,
+.GND-IWGDF4,
+.GND-IWGDG4 {
   background: rgb(71, 36, 0);
 }
 /* Modify keyboard shortcuts (small square at bottom right of menu) */
@@ -2249,6 +2266,7 @@ textarea,
   color: rgb(100, 100, 100) !important;
 }
 
+/* Light text (forced) */
 /* Data tables, headings, links, etc. */
 .rstudio-themes-dark.editor_dark.ace_editor_theme div,
 .rstudio-themes-flat.editor_dark h1,
@@ -2265,27 +2283,26 @@ textarea,
   color: var(--editor-foreground) !important;
 }
 
+/* ? */
 .rstudio-themes-flat input[type="checkbox"],
 .rstudio-themes-flat .rstudio-themes-dark input[type="checkbox"] {
   background: rgb(176, 176, 176);
   border-color: transparent;
 }
 
+/* ? */
 .rstudio-themes-flat .gwt-DialogBox,
 .rstudio-themes-flat .gwt-DialogBox .dialogTopCenter {
   background: rgb(60, 60, 60);
   border-color: rgb(60, 60, 60);
 }
 
-/* Fonts */
-
-/* Fira Code stylistic sets */
+/* Fonts: Fira Code stylistic sets */
 .ace_editor,
 .rstudio-fixed-width-font {
   font-feature-settings: "ss01", "ss02", "ss03", "ss05", "ss06", "ss07";
 }
-
-/* Fix other font issues seemingly caused by above */
+/* Fonts: fix other issues seemingly caused by above change */
 div.GND-IWGDFJD,
 select.gwt-ListBox,
 .GND-IWGDHYC,
