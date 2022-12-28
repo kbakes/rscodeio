@@ -2136,16 +2136,22 @@ a:-webkit-any-link,
 .GND-IWGDCVD,
 .GND-IWGDDL,
 .GND-IWGDE4C,
+.GND-IWGDE5B,
 .GND-IWGDEIC,
 .GND-IWGDF5B,
+.GND-IWGDGXD,
 .GND-IWGDH3,
 .GND-IWGDHAD,
 .GND-IWGDI4C,
 .GND-IWGDIAD,
+.GND-IWGDIWD,
+.GND-IWGDJ5B,
 .GND-IWGDJKD,
+.GND-IWGDJVD,
 .GND-IWGDK-,
 .GND-IWGDK2C,
 .GND-IWGDKBD,
+.GND-IWGDKTD,
 .GND-IWGDLAD,
 .GND-IWGDM1,
 .GND-IWGDMAD,
@@ -2157,7 +2163,7 @@ a:-webkit-any-link,
 .GND-IWGDOBD,
 .rstudio-HyperlinkLabel,
 .rstudio-themes-dark .GND-IWGDCV, 
-.rstudio-themes-dark .GND-IWGDDTC button.rstudio-themes-inverts[aria-pressed="true"],
+.rstudio-themes-dark .GND-IWGDHTC button.rstudio-themes-inverts[aria-pressed="true"],
 .rstudio-themes-dark .GND-IWGDIV,
 .rstudio-themes-dark .GND-IWGDJU,
 .rstudio-themes-dark-menus .filterPopup,
@@ -2283,9 +2289,9 @@ textarea,
   color: var(--editor-foreground) !important;
 }
 
-/* ? */
-.rstudio-themes-flat input[type="checkbox"],
-.rstudio-themes-flat .rstudio-themes-dark input[type="checkbox"] {
+/* Checkboxes, radios */
+.windows-highdpi .gwt-CheckBox input[type="checkbox"],
+.windows-highdpi .gwt-RadioButton input[type="radio"] {
   background: rgb(176, 176, 176);
   border-color: transparent;
 }
