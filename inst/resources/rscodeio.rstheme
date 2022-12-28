@@ -2161,7 +2161,9 @@ a:-webkit-any-link,
 .GND-IWGDO2,
 .GND-IWGDO2C,
 .GND-IWGDOBD,
+.GND-IWGDP0B,
 .rstudio-HyperlinkLabel,
+.rstudio-themes-dark .GND-IWGDBUC,
 .rstudio-themes-dark .GND-IWGDCV, 
 .rstudio-themes-dark .GND-IWGDHTC button.rstudio-themes-inverts[aria-pressed="true"],
 .rstudio-themes-dark .GND-IWGDIV,
@@ -2215,6 +2217,8 @@ textarea,
 }
 
 /* Code chunks in help section (examples etc.) */
+#md_examples pre,
+#md_examples code,
 #roxygen_examples pre,
 .rstudio-themes-dark.editor_dark.ace_editor_theme pre,
 .rstudio-themes-dark.editor_dark.ace_editor_theme pre code {
@@ -2290,6 +2294,7 @@ textarea,
 }
 
 /* Checkboxes, radios */
+.rstudio-themes-dark input[type="checkbox"],
 .windows-highdpi .gwt-CheckBox input[type="checkbox"],
 .windows-highdpi .gwt-RadioButton input[type="radio"] {
   background: rgb(176, 176, 176);
