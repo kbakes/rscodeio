@@ -2128,9 +2128,6 @@
 
 /* Dark background, light text (forced) */
 /* Various elements */
-
-.GND-IWGDG5C,
-
 a:-webkit-any-link,
 .GND-IWGDA5B,
 .GND-IWGDABB,
@@ -2145,6 +2142,7 @@ a:-webkit-any-link,
 .GND-IWGDE5B,
 .GND-IWGDEIC,
 .GND-IWGDF5B,
+.GND-IWGDG5C,
 .GND-IWGDGXD,
 .GND-IWGDH3,
 .GND-IWGDHAD,
