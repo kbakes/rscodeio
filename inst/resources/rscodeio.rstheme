@@ -2128,12 +2128,18 @@
 
 /* Dark background, light text (forced) */
 /* Various elements */
+
+.GND-IWGDG5C,
+
 a:-webkit-any-link,
-.GND-IWGDA5B, 
+.GND-IWGDA5B,
 .GND-IWGDABB,
+.GND-IWGDABD,
 .GND-IWGDAIC,
 .GND-IWGDB5C,
+.GND-IWGDBBD,
 .GND-IWGDCVD,
+.GND-IWGDDCD,
 .GND-IWGDDL,
 .GND-IWGDE4C,
 .GND-IWGDE5B,
@@ -2146,6 +2152,7 @@ a:-webkit-any-link,
 .GND-IWGDIAD,
 .GND-IWGDIWD,
 .GND-IWGDJ5B,
+.GND-IWGDJIC,
 .GND-IWGDJKD,
 .GND-IWGDJVD,
 .GND-IWGDK-,
@@ -2161,13 +2168,20 @@ a:-webkit-any-link,
 .GND-IWGDO2,
 .GND-IWGDO2C,
 .GND-IWGDOBD,
+.GND-IWGDOKD,
 .GND-IWGDP0B,
+.pm-cite-panel-cite-selection-sources,
+.pm-default-theme .pm-text-color,
+.pm-insert-citation-source-panel-item,
+.pm-insert-citation-source-panel-item-container,
+.pm-navigation-tree,
+.pm-tag-input-container,
 .rstudio-HyperlinkLabel,
 .rstudio-themes-dark .GND-IWGDBUC,
-.rstudio-themes-dark .GND-IWGDCV, 
-.rstudio-themes-dark .GND-IWGDHTC button.rstudio-themes-inverts[aria-pressed="true"],
+.rstudio-themes-dark .GND-IWGDCV,
 .rstudio-themes-dark .GND-IWGDIV,
 .rstudio-themes-dark .GND-IWGDJU,
+.rstudio-themes-dark .GND-IWGDMTC button.rstudio-themes-inverts[aria-pressed="true"],
 .rstudio-themes-dark-menus .filterPopup,
 .rstudio-themes-flat.rstudio-themes-dark.editor_dark.ace_editor_theme p code,
 .rstudio-themes-flat.rstudio-themes-dark-grey .colFilter,
@@ -2186,6 +2200,7 @@ a:-webkit-any-link,
 /* Dark background (forced), light text (forced) */
 /* Options menu buttons etc. */
 table,
+.pm-default-theme .pm-selected-navigation-tree-item,
 .rstudio-themes-dark .rstudio-themes-background {
   background: var(--editor-background) !important;
   color: var(--editor-foreground) !important;
@@ -2216,6 +2231,13 @@ textarea,
   color: var(--editor-foreground);
 }
 
+/* Grey background (forced), light text (forced) */
+.gwt-DialogBox input[type="text"],
+.js-focus-visible :focus:not([data-focus-visible-added]) {
+  background: rgb(60, 60, 60) !important;
+  color: var(--editor-foreground) !important;
+}
+
 /* Code chunks in help section (examples etc.) */
 #md_examples pre,
 #md_examples code,
@@ -2227,8 +2249,8 @@ textarea,
 }
 
 /* Update Packages menu */
-.GND-IWGDFIC,
-.GND-IWGDMIC {
+.GND-IWGDBJC,
+.GND-IWGDKIC {
   background: rgb(60, 60, 60);
   border-color: var(--editor-background);
   color: var(--editor-foreground);
@@ -2244,12 +2266,12 @@ textarea,
 }
 
 /* Git diff: line removed (dark red highlight) */
-.GND-IWGDH0C {
+.GND-IWGDM0C {
   background: rgb(99, 42, 38);
   color: var(--editor-foreground);
 }
 /* Git diff: line added (dark green highlight) */
-.GND-IWGDL0C {
+.GND-IWGDA1C {
   background: rgb(88, 130, 68);
   color: var(--editor-foreground);
 }
@@ -2272,9 +2294,10 @@ textarea,
 }
 
 /* Insert Citations menu */
-.pm-default-theme .pm-text-color {
+/*.pm-default-theme .pm-text-color {
   color: rgb(100, 100, 100) !important;
-}
+  color: var(--editor-foreground)
+}*/
 
 /* Light text (forced) */
 /* Data tables, headings, links, etc. */
